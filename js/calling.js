@@ -230,6 +230,7 @@ $(document).ready(function(){
 		    responsiveClass:true,
 		    autoplay:true,
 		    autoplayTimeout: 2500,
+		    autoplayHoverPause: true,
 		    smartSpeed:1000,
 		    thumbs:false,
 		    responsive:{
