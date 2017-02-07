@@ -228,6 +228,8 @@ $(document).ready(function(){
 		    loop:true,
 		    margin:10,
 		    responsiveClass:true,
+		    autoplay:true,
+		    autoplayTimeout: 2500,
 		    smartSpeed:1000,
 		    thumbs:false,
 		    responsive:{
@@ -237,7 +239,7 @@ $(document).ready(function(){
 		        },
 		        767:{
 		            items:2,
-		            nav:false
+		            nav:true
 		        },
 		        991:{
 		            items:3,
