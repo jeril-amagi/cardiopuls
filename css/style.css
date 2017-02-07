@@ -956,9 +956,9 @@ padding: 10px 30px;
 
 .logo img{
 
-	max-width: 100%;
+	width: 180px;
 
-	padding: 9px 0;
+	padding: 13px 0;
 
 }
 
@@ -24542,9 +24542,9 @@ ul.check-list-1 li:before, ul.check-list-2 li:before, ul.check-list-3 li:before,
 
   .logo img {
 
-    max-width: 100%;
+    width: 180px;
 
-    padding: 9px 0;
+    padding: 13px 0;
 
     z-index: 9999;
 
