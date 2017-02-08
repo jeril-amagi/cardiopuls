@@ -183,6 +183,10 @@ ul, li{
 }
 
 
+.br-small {
+  display: none;
+}
+
 
 .no-pad {
 
@@ -27006,7 +27010,7 @@ figure.effect-bubba p i {
 
   .ban-cotent .ban1-txt1, .ban-cotent .ban2-txt1 {
 
-      font-size: 16px;
+      font-size: 18px;
 
   }
 
@@ -27018,7 +27022,12 @@ figure.effect-bubba p i {
 
   .ban2-left, .ban1-left {
 
-    padding-top: 170px;
+    padding-top: 120px;
+  }
+
+
+  .br-small {
+    display: inline;
   }
 
 
