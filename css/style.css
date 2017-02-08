@@ -183,7 +183,7 @@ ul, li{
 }
 
 
-.br-small {
+.br-small, .br-medium {
   display: none;
 }
 
@@ -25441,6 +25441,9 @@ figure.effect-bubba p i {
 @media (max-width: 767px){
 
 
+  .br-medium {
+    display: inline;
+  }
 
 
 
@@ -25498,7 +25501,7 @@ figure.effect-bubba p i {
 
     width: 100%;
 
-    padding-top: 125px;
+    padding-top: 145px;
 
 }
 
@@ -26943,9 +26946,12 @@ figure.effect-bubba p i {
 
   .ban2-left, .ban1-left {
 
-    padding-top: 170px;
+    padding-top: 160px;
   }
 
+  .br-medium {
+    display: inline;
+  }
 
   /*home tabs*/
 
@@ -27026,7 +27032,7 @@ figure.effect-bubba p i {
   }
 
 
-  .br-small {
+  .br-small, .br-medium {
     display: inline;
   }
 
