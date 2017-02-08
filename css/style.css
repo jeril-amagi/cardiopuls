@@ -25621,7 +25621,7 @@ padding: 5px 0px 10px 0;
 
     width: 100%;
 
-    padding-top: 145px;
+    padding-top: 160px;
 
 }
 
@@ -27004,7 +27004,7 @@ figure.effect-bubba p i {
 	
   .demo-2 .sl-slider-wrapper {
 
-      height: 270px;
+      height: 280px;
 
   }
 
@@ -27016,19 +27016,24 @@ figure.effect-bubba p i {
 
   .ban-cotent .ban1-txt1, .ban-cotent .ban2-txt1 {
 
-      font-size: 18px;
+      font-size: 17px;
 
   }
 
   .demo-2 .bg-img-2, .demo-2 .bg-img-1 {
 
-    background-size: 85%;
+    background-size: 90%;
 
   }
 
-  .ban2-left, .ban1-left {
+  .ban1-left {
 
     padding-top: 120px;
+  }
+
+  .ban2-left {
+
+    padding-top: 130px;
   }
 
 
