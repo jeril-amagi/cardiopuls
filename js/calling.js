@@ -1070,6 +1070,51 @@ Gallery Popup Calling
 Magnifique popup
 */
 
+$('.parent-container-img3').each(function() { // the containers for all your galleries
+    $(this).magnificPopup({
+        delegate: 'figure', // the selector for gallery item
+        type: 'image',
+        closeBtnInside:false,
+        mainClass: 'mfp-with-zoom',
+
+        zoom: {
+		    enabled: true, // By default it's false, so don't forget to enable it
+
+		    duration: 300, // duration of the effect, in milliseconds
+		    easing: 'ease-in-out', // CSS transition easing function 
+
+		    // The "opener" function should return the element from which popup will be zoomed in
+		    // and to which popup will be scaled down
+		    // By defailt it looks for an image tag:
+		    opener: function(openerElement) {
+		      // openerElement is the element on which popup was initialized, in this case its <a> tag
+		      // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+		      return openerElement.is('img') ? openerElement : openerElement.find('img');
+		    }
+		  },
+
+		   callbacks: {
+			   
+			    buildControls: function() {
+			      // re-appends controls inside the main container
+			      // this.contentContainer.append(this.arrowLeft.add(this.arrowRight));
+			    },
+			    change: function() {
+		        if (this.isOpen) {
+		            this.wrap.addClass('mfp-open');
+		        }
+    }
+			  },
+
+
+        gallery: {
+          enabled:true
+        }
+
+    });
+});
+
+
 $('.parent-container-img2').each(function() { // the containers for all your galleries
     $(this).magnificPopup({
         delegate: 'figure', // the selector for gallery item

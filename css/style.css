@@ -19223,7 +19223,7 @@ figure.effect-apollo:hover p {
 
 figure.effect-ming {
 
-  background: #030c17;
+  background: #777;
 
 }
 
@@ -19231,7 +19231,7 @@ figure.effect-ming {
 
 figure.effect-ming img {
 
-  opacity: 0.9;
+  /*opacity: 0.9;*/
 
   -webkit-transition: opacity 0.35s;
 
