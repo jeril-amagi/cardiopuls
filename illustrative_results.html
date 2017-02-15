@@ -18,6 +18,7 @@
             <link rel="stylesheet" type="text/css" href="css/ie-only.css" />
 
         <![endif]-->
+  <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
   <link href="css/plug-css.css" rel="stylesheet" type="text/css">
   <link href="css/style.css" rel="stylesheet" type="text/css">
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -69,22 +70,22 @@
                           <a href="#">About Us</a>
                           <ul class="dl-submenu">
                             <li>
-                              <a href="about-us.html">What is Cardiopuls?</a>
+                              <a href="what-is-cardiopuls.html">What is Cardiopuls?</a>
                             </li>
                             <li>
-                              <a href="about-us2.html">Flowchart</a>
+                              <a href="flowchart.html">Flowchart</a>
                             </li>
                           </ul>
                         </li>
                         <li>
-                          <a href="#">Applications</a>
+                          <a href="applications.html">Applications</a>
                         </li>
 
                         <li>
                           <a href="#">Resources</a>
                           <ul class="dl-submenu">
                             <li>
-                              <a href="#">Illustrative Results</a>
+                              <a href="illustrative_results.html">Illustrative Results</a>
                             </li>
                             <li>
                               <a href="#">Publicactions</a>
@@ -121,7 +122,7 @@
                   </div><!-- /morphsearch -->
                   <div class="overlay disable-hover noscroll"></div>
                   <ul class="nav navbar-nav navbar-right title-text top-nav">
-                    <li class="active">
+                    <li class="">
                       <a href="index.html"><i class=
                       "ion-ios-home-outline"></i>Home</a>
                     </li>
@@ -132,17 +133,15 @@
                       "icon-angle-down"></b></a>
                       <ul class="dropdown-menu single-drop">
                         <li>
-                          <a href="about-us.html">What is Cardiopuls?</a>
+                          <a href="what-is-cardiopuls.html">What is Cardiopuls?</a>
                         </li>
                         <li>
-                          <a href="about-us2.html">Flowchart</a>
+                          <a href="flowchart.html">Flowchart</a>
                         </li>
                       </ul>
                     </li>
-                    <li class="dropdown mega-dropdown">
-                      <a class="dropdown-toggle" data-toggle="dropdown" href=
-                      "blog-3colp.html"><i class=
-                      "ion-ios-paperplane-outline"></i>Applications</a>
+                    <li class="active">
+                      <a href="applications.html"><i class="ion-ios-paperplane-outline"></i>Applications</a>
                     </li>
 
                     <li class="dropdown">
@@ -150,7 +149,7 @@
                       "#"><i class="ion-ios-box-outline"></i>Resources</a>
                       <ul class="dropdown-menu single-drop">
                         <li class="dropdown">
-                          <a href="doctors1.html" tabindex="-1">Illustrative Results</a>
+                          <a href="illustrative_results.html" tabindex="-1">Illustrative Results</a>
                         </li>
                         <li class="dropdown">
                           <a href="testimonial-carousel.html" tabindex=
@@ -178,8 +177,112 @@
       </div>
     </header><!--Header End-->
     
+    <section class="mcare-caction1-wrap parallax3 parallax-section" style="margin-bottom:0px; margin-top:0px;">
+      <div class="para-overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7">
+              <div class="caction2-inner cd-intro">
+                <h2 class="caction2-text cd-headline loading-bar">
+                <strong>Try Cardiopuls <span class=
+                "cd-words-wrapper"><b class="is-visible">Today</b></span></strong></h2><a class=
+                "mcare-button button1" href="#">Get Started</a> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!--About Clinic-->
 
+    <section class="mcare-Contact1-form contact-page">
+      <div class="container">
+        <div class="row">
 
+          <div class="col-md-8 col-lg-8 col-sm-8 col-xs-12 padding-spacer-right">
+            <h4 class="border-title">Illustrative Results</h4>
+
+            <div>
+              <br>
+              <h4>Hypertension</h4>
+              <ul class="check-list-circle">
+                <li>
+                  <a href="h1.jpg">
+                  Tabulated Results of a hypertensive user
+                  </a>
+                </li>
+
+                <li>
+                  <a href="h2.gif">
+                  Global Hemodynamic Interaction in Resting
+                  </a>
+                </li>
+
+                <li>
+                  <a href="h3.gif">
+                  Oxygen Supply/Demand and Oxygen Delivery
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        
+          <!--Contact Form-->
+          <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 padding-spacer-left">
+            <h4 class="border-title">Contact Us</h4><!-- Alert Masseges -->
+            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+              <div class="alert alert-success hidden" id="contactSuccess">
+                <strong>Success!</strong> Your message has been sent to us.
+              </div>
+              <div class="alert alert-danger hidden" id="contactError">
+                <strong>Error!</strong> There was an error sending your
+                message.
+              </div>
+            </div><!--Form Start-->
+            <form action="php/contact-form.php" id="contactForm" name=
+            "contactForm">
+              <!-- Name Text Box -->
+              <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 no-pad">
+                <div class="mcare-field control-group">
+                  <i class="ion-person"></i> <input class="form-control" id="name" 
+                  name="name" placeholder="Name" type="text">
+                </div>
+              </div><!-- Email Text Box -->
+              <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 no-pad">
+                <div class="mcare-field control-group">
+                  <i class="ion-ios-email-outline"></i> <input class=
+                  "form-control" id="email" name="email" placeholder="Email"
+                  type="email">
+                </div>
+              </div><!-- Subject Text Box -->
+              <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 no-pad">
+                <div class="mcare-field control-group">
+                  <i class="ion-compose"></i> <input class="form-control" id=
+                  "subject" name="subject" placeholder="Subject" type="text">
+                </div>
+              </div><!-- Message Text Box -->
+              <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 no-pad">
+                <div class="mcare-field control-group">
+                  <textarea class="form-control tarea" id="message" name=
+                  "message" placeholder="Message"></textarea>
+                </div>
+              </div><!-- Button -->
+              <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 no-pad">
+                <div class="mcare-field main-but">
+                  <div class="inner-out-button">
+                    <button class=
+                    "mcare-button-dark button2 mcare-button-med"
+                    data-loading-text="Loading..." type="submit">Send
+                    Message</button>
+                  </div>
+                </div>
+              </div>
+            </form><!-- Form End -->
+          </div><!--Schedule-->
+
+        </div>
+      </div>
+    </section><!--Icon Boxes Flip-->
 
 
     <footer>
