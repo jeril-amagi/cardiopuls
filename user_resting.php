@@ -308,7 +308,7 @@
           </div>
 
           <!--Contact Form-->
-          <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 padding-spacer-left">
+          <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 padding-spacer-left">
             <h4 class="border-title">Contact Us</h4>
 
             <?php require 'contact_form.php'; ?>

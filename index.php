@@ -140,11 +140,14 @@
             <div class="col-md-12">
               <div class="caction1-inner">
                 <h2 class="caction1-text"><br>
-                Give Cardiopuls a try<br><em>Just input your heart rate and blood pressure data</em></h2>
+
+                Try Cardiopuls Today
+
+                <br><em>Just input your heart rate and blood pressure data</em></h2>
 
                 <a class=
-                "mcare-button button1" href="try_cardiopuls.html">TRY CARDIOPULS</a> <a class=
-                "mcare-button button2" href="#">LEARN MORE</a>
+                "mcare-button button1" href="try_cardiopuls.php">TRY CARDIOPULS</a> <a class=
+                "mcare-button button2" href="what_is_cardiopuls.php">LEARN MORE</a>
               </div>
             </div>
           </div>

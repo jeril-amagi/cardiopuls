@@ -7,7 +7,7 @@
                 <h2 class="caction2-text cd-headline loading-bar">
                 <strong>Try Cardiopuls <span class=
                 "cd-words-wrapper"><b class="is-visible">Today</b></span></strong></h2><a class=
-                "mcare-button button1" href="#">Get Started</a> 
+                "mcare-button button1" href="try_cardiopuls.php">Get Started</a> 
               </div>
             </div>
           </div>

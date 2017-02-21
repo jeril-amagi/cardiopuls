@@ -25,9 +25,9 @@
 
             <br><br>
 
-						<a href="user_resting.html" class="mcare-button button1 light-bg small-bt" target="new" >User Questionnaire <br>for Resting</a>  &nbsp; &nbsp; 
+						<a href="user_resting.php" class="mcare-button button1 light-bg small-bt" target="new" >User Questionnaire <br>for Resting</a>  &nbsp; &nbsp; 
 
-						<a href="user_excercise.html" class="mcare-button button1 light-bg small-bt" target="new">User Questionnaire <br>for Exercise</a>  &nbsp; &nbsp; 
+						<a href="user_excercise.php" class="mcare-button button1 light-bg small-bt" target="new">User Questionnaire <br>for Exercise</a>  &nbsp; &nbsp; 
 
 						<br><br>
 
