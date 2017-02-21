@@ -37,7 +37,6 @@
             <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
               <p class="text-content copy-content">© Copyrights <span class=
               "theme-color-text">CARDIOPULS</span> 2017. All rights reserved.
-              <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a></p>
             </div>
             <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
               <ul class="foot-social">
@@ -49,15 +48,6 @@
                 </li>
                 <li>
                   <a href="#"><i class="fa fa-google-plus"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-share-alt"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-pinterest-p"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-skype"></i></a>
                 </li>
               </ul>
             </div>

@@ -25,7 +25,7 @@
                           <a href="#">About Us</a>
                           <ul class="dl-submenu">
                             <li>
-                              <a href="what-is-cardiopuls.php">What is Cardiopuls?</a>
+                              <a href="what_is_cardiopuls.php">What is Cardiopuls?</a>
                             </li>
                             <li>
                               <a href="flowchart.php">Flowchart</a>
@@ -86,7 +86,7 @@
                       <i class="ion-ios-person-outline"></i>About Us<b class="icon-angle-down"></b></a>
                       <ul class="dropdown-menu single-drop">
                         <li>
-                          <a href="what-is-cardiopuls.php">What is Cardiopuls?</a>
+                          <a href="what_is_cardiopuls.php">What is Cardiopuls?</a>
                         </li>
                         <li>
                           <a href="flowchart.php">Flowchart</a>
