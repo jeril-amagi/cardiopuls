@@ -12648,6 +12648,46 @@ display: none;
 }
 
 
+.contact-info span{
+
+  padding: 5px 5px;
+
+  background: #144785;
+
+  border-radius: 6px;
+
+  color: #fff;
+
+  margin: 10px 0 0 0;
+
+  display: block;
+
+}
+
+
+
+.contact-info span a{ 
+
+  color: #fff;
+
+}
+
+.contact-info span a:before{
+
+display: none;
+
+}
+
+.contact-info span i{
+
+ font-size: 18px;
+
+  margin-right: 15px;
+
+  padding-left: 13px;
+
+}
+
 
 .contact-page2 .department-collapse .panel-default > .panel-heading + .panel-collapse > .panel-body{
 
