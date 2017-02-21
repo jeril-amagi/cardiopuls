@@ -99,7 +99,7 @@
                           </ul>
                         </li>
                         <li>
-                          <a href="contact.html">Contact Us</a>
+                          <a href="contact.php">Contact Us</a>
                         </li>
                       </ul>
                     </div><!-- /dl-menuwrapper -->
@@ -164,7 +164,7 @@
                       </ul>
                     </li>
                     <li class="active">
-                      <a href="contact.html"><i class=
+                      <a href="contact.php"><i class=
                       "ion-ios-location-outline"></i>Contact</a>
                     </li>
                   </ul>
@@ -193,6 +193,20 @@
       </div>
     </section><!--About Clinic-->
 
+    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12" style="padding: 30px">
+
+      <?php if(isset($_GET['sent']) && $_GET['sent'] == 1): ?>
+        <div class="alert alert-success" id="contactSuccess">
+          Your message was sent successfully
+        </div>
+      <?php elseif(isset($_GET['sent']) && $_GET['sent'] == 0) : ?>
+        <div class="alert alert-danger" id="contactError">
+          There was an error while sending your message
+        </div>
+      <?php endif; ?>
+
+    </div><!--Form Start-->
+
     <section class="mcare-Contact1-form contact-page">
       <div class="container">
         <div class="row">
@@ -200,15 +214,7 @@
           <!--Contact Form-->
           <div class="col-md-7 col-lg-7 col-sm-7 col-xs-12 padding-spacer-right">
             <h4 class="border-title">Contact Us</h4><!-- Alert Masseges -->
-            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-              <div class="alert alert-success hidden" id="contactSuccess">
-                <strong>Success!</strong> Your message has been sent to us.
-              </div>
-              <div class="alert alert-danger hidden" id="contactError">
-                <strong>Error!</strong> There was an error sending your
-                message.
-              </div>
-            </div><!--Form Start-->
+
 
             <form action="emailform.php" method="post" name="contactForm">
               <!-- Name Text Box -->
