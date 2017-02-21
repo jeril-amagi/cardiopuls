@@ -18,7 +18,6 @@
             <link rel="stylesheet" type="text/css" href="css/ie-only.css" />
 
         <![endif]-->
-  <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
   <link href="css/plug-css.css" rel="stylesheet" type="text/css">
   <link href="css/style.css" rel="stylesheet" type="text/css">
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -85,7 +84,7 @@
                           <a href="#">Resources</a>
                           <ul class="dl-submenu">
                             <li>
-                              <a href="illustrative_results.html">Illustrative Results</a>
+                              <a href="#">Illustrative Results</a>
                             </li>
                             <li>
                               <a href="publications.html">Publications</a>
@@ -140,11 +139,11 @@
                         </li>
                       </ul>
                     </li>
-                    <li class="">
+                    <li class="active">
                       <a href="applications.html"><i class="ion-ios-paperplane-outline"></i>Applications</a>
                     </li>
 
-                    <li class="dropdown active">
+                    <li class="dropdown">
                       <a class="dropdown-toggle" data-toggle="dropdown" href=
                       "#"><i class="ion-ios-box-outline"></i>Resources</a>
                       <ul class="dropdown-menu single-drop">
@@ -163,7 +162,7 @@
                         </li>
                       </ul>
                     </li>
-                    <li>
+                    <li class="">
                       <a href="contact.html"><i class=
                       "ion-ios-location-outline"></i>Contact</a>
                     </li>
@@ -185,7 +184,7 @@
                 <h2 class="caction2-text cd-headline loading-bar">
                 <strong>Try Cardiopuls <span class=
                 "cd-words-wrapper"><b class="is-visible">Today</b></span></strong></h2><a class=
-                "mcare-button button1" href="try_cardiopuls.html">Get Started</a> 
+                "mcare-button button1" href="#">Get Started</a> 
               </div>
             </div>
           </div>
@@ -197,57 +196,305 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-md-8 col-lg-8 col-sm-8 col-xs-12 padding-spacer-right">
-            <h4 class="border-title">Illustrative Results</h4>
-              <br>
-              <h4>Hypertension</h4>
-              <p style="margin-left:30px;">
-              <a href="h1.jpg" target="new">
-              &bull; Tabulated Results of a Hypertensive User </a>
-              <p style="margin-left:30px;">
-              <a href="h2.gif" target="new">
-              &bull; Global Hemodynamic Interaction in Resting  </a>
-              <p style="margin-left:30px;">
-              <a href="h3.gif" target="new">
-              &bull; Oxygen Supply / Demand and Oxygen Delivery  </a>
+          <div class="col-md-9 col-lg-9 col-sm-9 col-xs-12 padding-spacer-right">
+            <h4 class="border-title">User Questionnaire for Resting</h4>
 
-              <br><br>
-              <h4>Treadmill Exercise</h4>
-              <p style="margin-left:30px;">
-              <a href="t1.gif" target="new">
-              &bull; Databank for Computing  </a>
-              <p style="margin-left:30px;">
-              <a href="t2.jpg" target="new">
-              &bull; Tabulated Result of the Angina Pectoris  </a>
-              <p style="margin-left:30px;">
-              <a href="t3.gif" target="new">
-              &bull; Blood Pressure and Heart Rate Responses </a>
-              <p style="margin-left:30px;">
-              <a href="t4.gif" target="new">
-              &bull; VO2 max and METs Changes </a>
-              <p style="margin-left:30px;">
-              <a href="t5.gif" target="new">
-              &bull; Correlation between Stroke Index and % Heart Rate  </a>
-              <p style="margin-left:30px;">
-              <a href="t6.gif" target="new">
-              &bull; Myocardial Contractability as Related to Stroke Index  </a>
+            <br><br>
 
-              <br><br>
-              <h4>Autoregulation</h4>
-              <p style="margin-left:30px;">
-              <a href="a1.jpg" target="new">
-              &bull; Autoregulation of Endocardial Blood Flow   </a>
+            Fill out the requested information and press the "submit" button below. If Arrhythmia is present, the calculation is not valid. 
 
-              <br><br>
-              <h4>Olympian Fitness Test</h4>
-              <p style="margin-left:30px;">
-              <a href="o1.jpg" target="new">
-              &bull; Tabulated Results of a Male Olympic Champion    </a>
+            <br>
+
+
+
+
+
+
+
+<form id="f1" name="f" method="post"  onsubmit="return fnValidate(this)" action="user.php">
+
+<table width="100%" border="0" cellpadding="2" cellspacing="2" class="style4">
+
+  <tr>
+
+    <td align="left">Date of Test: </td>
+
+    <td align="left"><input type="text" name="date" size="15" maxlength="20" /></td>
+
+    <td><img src="spacer.gif" width="40" height="1" border="0" alt="" /></td>
+
+    <td align="left">* % SaO2: </td>
+
+    <td align="left"><input type="text" name="percent_sao2" size="15" maxlength="20" /></td>
+
+    <td></td>
+
+  </tr>
+
+  <tr>
+
+    <td align="left">Date of Birth: </td>
+
+    <td align="left"><input type="text" name="dob" size="15" maxlength="20"/></td>
+
+    <td><img src="spacer.gif" width="40" height="1" border="0" alt="" /></td>
+
+    <td align="left">* Hemoglobin in g/dl: </td>
+
+    <td align="left"><input type="text" name="hemoglobin" size="15" maxlength="20" /></td>
+
+    <td></td>
+
+  </tr>
+
+  <tr>
+
+    <td align="left">user No: </td>
+
+    <td align="left"><input type="text" name="user_no" size="15" maxlength="20" /></td>
+
+    <td><img src="spacer.gif" width="40" height="1" border="0" alt="" /></td>
+
+    <td align="left">Weight: </td>
+
+    <td align="left"><input type="text" name="weight" size="15" maxlength="20" /></td>
+
+    <td align="left"><select name="weight_measure">
+
+      <option value="kg">kg</option>
+
+      <option value="lb">lb</option>
+
+    </select>
+
+    </td>
+
+  </tr>
+
+  <tr>
+
+    <td align="left" valign="top">Gender: </td>
+
+    <td align="left" valign="top"><input type="radio" name="gender" value="male" />
+
+      Male<br />
+
+      <input type="radio" name="gender" value="female" />
+
+      Female</td>
+
+    <td><img src="spacer.gif" width="40" height="1" border="0" alt="" /></td>
+
+    <td align="left">Height (specify cm/in): </td>
+
+    <td align="left"><input type="text" name="height" size="15" maxlength="20" /></td>
+
+    <td align="left"><select name="weight_measure">
+
+      <option value="cm">cm</option>
+
+      <option value="in">in</option>
+
+    </select>
+
+    </td>
+
+  </tr>
+
+  <tr>
+
+    <td colspan="6"><br />
+
+        <br />
+
+        <div align="center"> <em>* not obligatory if not available, calculation will be made with the average ideal value</em> </div></td>
+
+  </tr>
+
+</table>
+
+<br />
+
+<table width="100%" border="0" cellpadding="2" cellspacing="2" class="style4">
+
+  <tr>
+
+    <td align="left" valign="top">Body Frame: </td>
+
+    <td align="left" valign="top"><input type="radio" name="body_frame" value="small" />
+
+      Small<br />
+
+      <input type="radio" name="body_frame" value="small-medium" />
+
+      Small/Medium<br />
+
+      <input type="radio" name="body_frame" value="medium" />
+
+      Medium<br />
+
+      <input type="radio" name="body_frame" value="medium-large" />
+
+      Medium/Large<br />
+
+      <input type="radio" name="body_frame" value="large" />
+
+      Large </td>
+
+    <td><img src="spacer.gif" width="90" height="1" border="0" alt="" /></td>
+
+    <td align="left" valign="top">Activity: </td>
+
+    <td align="left" valign="top"><input type="radio" name="activity" value="inactive" />
+
+      Inactive<br />
+
+      <input type="radio" name="activity" value="sedentary" />
+
+      Sedentary<br />
+
+      <input type="radio" name="activity" value="moderately_active" />
+
+      Moderately Active<br />
+
+      <input type="radio" name="activity" value="very_active"/>
+
+      Very Active </td>
+
+  </tr>
+
+</table>
+
+<br />
+
+<table width="100%" border="0" cellpadding="2" cellspacing="2" class="style4">
+
+  <tr>
+
+    <td align="left" rowspan="3" width="160"><p><strong>Resting&nbsp;&nbsp;Supine</strong></p>
+
+      <p><strong>(Mandatory)</strong></p></td>
+
+    <td align="left">Systolic Blood Pressure (mmHg): </td>
+
+    <td align="left"><input type="text" name="resting_supine_systolic_blood_pressure" size="15" maxlength="20" /></td>
+
+  </tr>
+
+  <tr>
+
+    <td align="left">Diastolic Blood Pressure (mmHg): </td>
+
+    <td align="left"><input type="text" name="resting_supine_diastolic_blood_pressure" size="15" maxlength="20" /></td>
+
+  </tr>
+
+  <tr>
+
+    <td align="left">Heart Rate (beat/min): </td>
+
+    <td align="left"><input type="text" name="resting_supine_heart_rate" size="15" maxlength="20" /></td>
+
+  </tr>
+
+</table>
+
+<div align="center"><br />
+
+    <table width="100%" border="0" cellpadding="2" cellspacing="2" class="style4">
+
+      <tr>
+
+        <td align="left" rowspan="3" width="160"><p><strong>Resting&nbsp;&nbsp;Upright</strong></p>
+
+        <p><strong>(Optional)</strong></p></td>
+
+        <td align="left">Systolic Blood Pressure (mmHg): </td>
+
+        <td align="left"><input type="text" name="resting_upright_systolic_blood_pressure" size="15" maxlength="20" /></td>
+
+      </tr>
+
+      <tr>
+
+        <td align="left">Diastolic Blood Pressure (mmHg): </td>
+
+        <td align="left"><input type="text" name="resting_upright_diastolic_blood_pressure" size="15" maxlength="20" /></td>
+
+      </tr>
+
+      <tr>
+
+        <td align="left">Heart Rate (beat/min): </td>
+
+        <td align="left"><input type="text" name="resting_upright_heart_rate" size="15" maxlength="20"/></td>
+
+      </tr>
+
+    </table>
+
+    <br />
+
+</div>
+
+<br />
+
+<table cellpadding="2" cellspacing="2" border="0" width="100%" class="style4">
+
+  <tr>
+
+    <td width="182" align="right"><b>Your E-mail Address</b>:&nbsp; </td>
+
+    <td width="1032"><input type="text" name="email" size="30" />
+
+    </td>
+
+  </tr>
+
+  <tr>
+
+    <td>&nbsp;</td>
+
+    <td>&nbsp;</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="182" align="right"><b>Your Fax Number</b>:&nbsp; </td>
+
+    <td><input type="text" name="fax_number" size="30" />
+
+    </td>
+
+  </tr>
+
+</table>
+
+<div align="center"><br />
+
+  <input type="submit" name="Submit" value="Submit" />
+
+  &nbsp;
+
+  <input type="reset" name="Submit2" value=" Clear " />
+
+  <input name="Submit3" type="hidden" id="Submit" value="Submit" />
+
+</div>
+
+</form>
+
+
+
+
+
+
           </div>
 
         
           <!--Contact Form-->
-          <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 padding-spacer-left">
+          <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 padding-spacer-left">
             <h4 class="border-title">Contact Us</h4><!-- Alert Masseges -->
             <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
               <div class="alert alert-success hidden" id="contactSuccess">
@@ -258,6 +505,7 @@
                 message.
               </div>
             </div><!--Form Start-->
+
             <form action="emailform.php" method="post" name="contactForm">
               <!-- Name Text Box -->
               <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 no-pad">
