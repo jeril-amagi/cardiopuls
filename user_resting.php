@@ -20,7 +20,7 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-md-9 col-lg-9 col-sm-9 col-xs-12 padding-spacer-right">
+          <div class="col-md-9 col-lg-9 col-sm-12 col-xs-12 padding-spacer-right">
             <h4 class="border-title">User Questionnaire for Resting</h4>
 
             <br><br>
@@ -31,21 +31,23 @@
 
 
 
+
+
 <form id="f1" name="f" method="post"  onsubmit="return fnValidate(this)" action="user.php">
 
-<table width="100%" border="0" cellpadding="2" cellspacing="2" class="style4">
+<table class="table table-striped table-bordered">
 
   <tr>
 
     <td align="left">Date of Test: </td>
 
-    <td align="left"><input type="text" name="date" size="15" maxlength="20" /></td>
+    <td align="left"><input class="form-control" type="text" name="date" size="15" maxlength="20" /></td>
 
     <td><img src="spacer.gif" width="40" height="1" border="0" alt="" /></td>
 
     <td align="left">* % SaO2: </td>
 
-    <td align="left"><input type="text" name="percent_sao2" size="15" maxlength="20" /></td>
+    <td align="left"><input class="form-control" type="text" name="percent_sao2" size="15" maxlength="20" /></td>
 
     <td></td>
 
@@ -55,13 +57,13 @@
 
     <td align="left">Date of Birth: </td>
 
-    <td align="left"><input type="text" name="dob" size="15" maxlength="20"/></td>
+    <td align="left"><input class="form-control" type="text" name="dob" size="15" maxlength="20"/></td>
 
     <td><img src="spacer.gif" width="40" height="1" border="0" alt="" /></td>
 
     <td align="left">* Hemoglobin in g/dl: </td>
 
-    <td align="left"><input type="text" name="hemoglobin" size="15" maxlength="20" /></td>
+    <td align="left"><input class="form-control" type="text" name="hemoglobin" size="15" maxlength="20" /></td>
 
     <td></td>
 
@@ -69,17 +71,17 @@
 
   <tr>
 
-    <td align="left">user No: </td>
+    <td align="left">User No: </td>
 
-    <td align="left"><input type="text" name="user_no" size="15" maxlength="20" /></td>
+    <td align="left"><input class="form-control" type="text" name="user_no" size="15" maxlength="20" /></td>
 
     <td><img src="spacer.gif" width="40" height="1" border="0" alt="" /></td>
 
     <td align="left">Weight: </td>
 
-    <td align="left"><input type="text" name="weight" size="15" maxlength="20" /></td>
+    <td align="left"><input class="form-control" type="text" name="weight" size="15" maxlength="20" /></td>
 
-    <td align="left"><select name="weight_measure">
+    <td align="left"><select class="form-control" name="weight_measure">
 
       <option value="kg">kg</option>
 
@@ -107,9 +109,9 @@
 
     <td align="left">Height (specify cm/in): </td>
 
-    <td align="left"><input type="text" name="height" size="15" maxlength="20" /></td>
+    <td align="left"><input class="form-control" type="text" name="height" size="15" maxlength="20" /></td>
 
-    <td align="left"><select name="weight_measure">
+    <td align="left"><select class="form-control" name="weight_measure">
 
       <option value="cm">cm</option>
 
@@ -135,7 +137,7 @@
 
 <br />
 
-<table width="100%" border="0" cellpadding="2" cellspacing="2" class="style4">
+<table class="table table-striped table-bordered">
 
   <tr>
 
@@ -187,7 +189,7 @@
 
 <br />
 
-<table width="100%" border="0" cellpadding="2" cellspacing="2" class="style4">
+<table class="table table-striped table-bordered">
 
   <tr>
 
@@ -197,7 +199,7 @@
 
     <td align="left">Systolic Blood Pressure (mmHg): </td>
 
-    <td align="left"><input type="text" name="resting_supine_systolic_blood_pressure" size="15" maxlength="20" /></td>
+    <td align="left"><input class="form-control" type="text" name="resting_supine_systolic_blood_pressure" size="15" maxlength="20" /></td>
 
   </tr>
 
@@ -205,7 +207,7 @@
 
     <td align="left">Diastolic Blood Pressure (mmHg): </td>
 
-    <td align="left"><input type="text" name="resting_supine_diastolic_blood_pressure" size="15" maxlength="20" /></td>
+    <td align="left"><input class="form-control" type="text" name="resting_supine_diastolic_blood_pressure" size="15" maxlength="20" /></td>
 
   </tr>
 
@@ -213,7 +215,7 @@
 
     <td align="left">Heart Rate (beat/min): </td>
 
-    <td align="left"><input type="text" name="resting_supine_heart_rate" size="15" maxlength="20" /></td>
+    <td align="left"><input class="form-control" type="text" name="resting_supine_heart_rate" size="15" maxlength="20" /></td>
 
   </tr>
 
@@ -221,7 +223,7 @@
 
 <div align="center"><br />
 
-    <table width="100%" border="0" cellpadding="2" cellspacing="2" class="style4">
+    <table class="table table-striped table-bordered">
 
       <tr>
 
@@ -231,7 +233,7 @@
 
         <td align="left">Systolic Blood Pressure (mmHg): </td>
 
-        <td align="left"><input type="text" name="resting_upright_systolic_blood_pressure" size="15" maxlength="20" /></td>
+        <td align="left"><input class="form-control" type="text" name="resting_upright_systolic_blood_pressure" size="15" maxlength="20" /></td>
 
       </tr>
 
@@ -239,7 +241,7 @@
 
         <td align="left">Diastolic Blood Pressure (mmHg): </td>
 
-        <td align="left"><input type="text" name="resting_upright_diastolic_blood_pressure" size="15" maxlength="20" /></td>
+        <td align="left"><input class="form-control" type="text" name="resting_upright_diastolic_blood_pressure" size="15" maxlength="20" /></td>
 
       </tr>
 
@@ -247,7 +249,7 @@
 
         <td align="left">Heart Rate (beat/min): </td>
 
-        <td align="left"><input type="text" name="resting_upright_heart_rate" size="15" maxlength="20"/></td>
+        <td align="left"><input class="form-control" type="text" name="resting_upright_heart_rate" size="15" maxlength="20"/></td>
 
       </tr>
 
@@ -259,13 +261,13 @@
 
 <br />
 
-<table cellpadding="2" cellspacing="2" border="0" width="100%" class="style4">
+<table class="table table-striped table-bordered">
 
   <tr>
 
     <td width="182" align="right"><b>Your E-mail Address</b>:&nbsp; </td>
 
-    <td width="1032"><input type="text" name="email" size="30" />
+    <td width="1032"><input class="form-control" type="text" name="email" size="30" />
 
     </td>
 
@@ -283,7 +285,7 @@
 
     <td width="182" align="right"><b>Your Fax Number</b>:&nbsp; </td>
 
-    <td><input type="text" name="fax_number" size="30" />
+    <td><input class="form-control" type="text" name="fax_number" size="30" />
 
     </td>
 
@@ -305,10 +307,12 @@
 
 </form>
 
+
+
           </div>
 
           <!--Contact Form-->
-          <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 padding-spacer-left">
+          <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 padding-spacer-left">
             <h4 class="border-title">Contact Us</h4>
 
             <?php require 'contact_form.php'; ?>

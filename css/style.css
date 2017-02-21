@@ -27139,3 +27139,8 @@ figure.effect-bubba p i {
 
 
 }
+
+
+.table-bordered td {
+    border: 0 none !important;
+}
