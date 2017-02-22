@@ -21,7 +21,7 @@
         <div class="row">
 
           <div class="col-md-9 col-lg-9 col-sm-12 col-xs-12 padding-spacer-right">
-            <h4 class="border-title">User Questionnaire for Resting</h4>
+            <h4 class="border-title">User Questionnaire for Exercise</h4>
 
             <br><br>
 
@@ -120,43 +120,87 @@
 
               <table class="table table-striped table-bordered">
                 <tr>
-                  <td align="left" rowspan="3" width="160"><p><strong>Resting&nbsp;&nbsp;Supine</strong></p>
-                    <p><strong>(Mandatory)</strong></p></td>
-                  <td align="left">Systolic Blood Pressure (mmHg): </td>
-                  <td align="left"><input class="form-control" type="text" name="resting_supine_systolic_blood_pressure" required/></td>
+                  <td align="left" rowspan="3" width="197"><strong>Resting&nbsp;&nbsp;Upright</strong><br />
+                    (about 40%<br />
+                    of Max HR)</td>
+                  <td width="686" align="left"><div align="right">Systolic Blood Pressure (mmHg): </div></td>
+                  <td width="311" align="left"><input class="form-control" type="text" name="resting_upright_systolic_blood_pressure" required/></td>
                 </tr>
-
                 <tr>
-                  <td align="left">Diastolic Blood Pressure (mmHg): </td>
-                  <td align="left"><input class="form-control" type="text" name="resting_supine_diastolic_blood_pressure" required /></td>
+                  <td align="left"><div align="right">Diastolic Blood Pressure (mmHg): </div></td>
+                  <td align="left"><input type="text" name="resting_upright_diastolic_blood_pressure" class="form-control" required /></td>
                 </tr>
-
                 <tr>
-                  <td align="left">Heart Rate (beat/min): </td>
-                  <td align="left"><input class="form-control" type="text" name="resting_supine_heart_rate" required /></td>
+                  <td align="left"><div align="right">Heart Rate (beat/min): </div></td>
+                  <td align="left"><input type="text" name="resting_upright_heart_rate" class="form-control" required/></td>
                 </tr>
               </table>
 
-              <div align="center"><br />
-                  <table class="table table-striped table-bordered">
-                    <tr>
-                      <td align="left" rowspan="3" width="160"><p><strong>Resting&nbsp;&nbsp;Upright</strong></p>
-                      <p><strong>(Optional)</strong></p></td>
-                      <td align="left">Systolic Blood Pressure (mmHg): </td>
-                      <td align="left"><input class="form-control" type="text" name="resting_upright_systolic_blood_pressure" required/></td>
-                    </tr>
+              <br />
 
-                    <tr>
-                      <td align="left">Diastolic Blood Pressure (mmHg): </td>
-                      <td align="left"><input class="form-control" type="text" name="resting_upright_diastolic_blood_pressure" required/></td>
-                    </tr>
+              <table class="table table-striped table-bordered">
+                <tr>
+                  <td align="left" rowspan="5" width="100"><strong><em>EXERCISE<br />
+                          <br />
+                    TREADMILL<br />
+                    <br />
+                    TEST</em></strong></td>
+                  <td>
+                    <table class="table table-striped table-bordered">
+                      <tr>
+                        <td align="left" rowspan="3" width="80"><strong><em>Exercise-1</em></strong><br />
+                          (about 60%<br />
+                          of Max HR)</td>
+                        <td width="669" align="left"><div align="right">Systolic Blood Pressure (mmHg): </div></td>
+                        <td width="334" align="left"><input type="text" name="exercise_1_systolic_blood_pressure" class="form-control" required/></td>
+                      </tr>
 
-                    <tr>
-                      <td align="left">Heart Rate (beat/min): </td>
-                      <td align="left"><input class="form-control" type="text" name="resting_upright_heart_rate" required/></td>
-                    </tr>
-                  </table><br />
-              </div><br />
+                      <tr>
+                        <td align="left"><div align="right">Diastolic Blood Pressure (mmHg): </div></td>
+                        <td align="left"><input type="text" name="exercise_1_diastolic_blood_pressure" class="form-control" required /></td>
+                      </tr>
+
+                      <tr>
+                        <td align="left"><div align="right">Heart Rate (beat/min): </div></td>
+                        <td align="left"><input type="text" name="exercise_1_heart_rate" class="form-control" required /></td>
+                      </tr>
+
+                    </table>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="line">&nbsp;</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <table class="table table-striped table-bordered">
+                      <tr>
+                        <td align="left" rowspan="3" width="80"><strong><em>Exercise-2</em></strong><br />
+                          (about 80%<br />
+                          of Max HR)</td>
+                        <td width="672" align="left"><div align="right">Systolic Blood Pressure (mmHg): </div></td>
+                        <td width="331" align="left"><input type="text" name="exercise_2_systolic_blood_pressure" class="form-control" required /></td>
+                      </tr>
+
+                      <tr>
+                        <td align="left"><div align="right">Diastolic Blood Pressure (mmHg): </div></td>
+                        <td align="left"><input type="text" name="exercise_2_diastolic_blood_pressure" class="form-control" required/></td>
+                      </tr>
+
+                      <tr>
+                        <td align="left"><div align="right">Heart Rate (beat/min): </div></td>
+                        <td align="left"><input type="text" name="exercise_2_heart_rate" class="form-control" required /></td>
+                      </tr>
+
+                    </table>
+                  </td>
+                </tr>
+
+              </table>
+
+              <br />
 
               <table class="table table-striped table-bordered">
                 <tr>
