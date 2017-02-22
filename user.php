@@ -120,4 +120,9 @@ $mail_sent = @mail( $to, $subject, $message, $headers );
 
 //echo $mail_sent ? "Mail sent" : "Mail failed horribly"; 
 
+$status = $mail_sent ? 1 : 0; 
+
+header("Location: try_cardiopuls.php?sent=".$status); /* Redirect browser */
+exit();
+
 ?>

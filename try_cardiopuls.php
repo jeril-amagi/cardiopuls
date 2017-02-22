@@ -16,6 +16,20 @@
     
     <?php require 'call2action.php'; ?>
 
+    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12" style="padding: 30px">
+
+      <?php if(isset($_GET['sent']) && $_GET['sent'] == 1): ?>
+        <div class="alert alert-success" id="contactSuccess">
+          Your data was submitted successfully
+        </div>
+      <?php elseif(isset($_GET['sent']) && $_GET['sent'] == 0) : ?>
+        <div class="alert alert-danger" id="contactError">
+          There was an error while submitting your data
+        </div>
+      <?php endif; ?>
+
+    </div><!--Form Start-->
+
     <section class="mcare-Contact1-form contact-page">
       <div class="container">
         <div class="row">
