@@ -29,172 +29,171 @@
 
             <br>
 
+            <!-- Questionnaire Form Begins -->
 
+            <form id="f1" name="f" method="post"  onsubmit="return fnValidate(this)" action="user.php">
 
+              <table class="table table-striped table-bordered">
+                <tr>
+                  <td align="left">Date of Test: </td>
+                  <td align="left"><input class="form-control" type="text" name="date" required /></td>
+                  <td><img src="spacer.gif" width="40" height="1" border="0" alt="" /></td>
+                  <td align="left">* % SaO2: </td>
+                  <td align="left"><input class="form-control" type="text" name="percent_sao2" /></td>
+                  <td></td>
+                </tr>
 
+                <tr>
+                  <td align="left">Date of Birth: </td>
+                  <td align="left"><input class="form-control" type="text" name="dob" required/></td>
+                  <td><img src="spacer.gif" width="40" height="1" border="0" alt="" /></td>
+                  <td align="left">* Hemoglobin in g/dl: </td>
+                  <td align="left"><input class="form-control" type="text" name="hemoglobin" /></td>
+                  <td></td>
+                </tr>
 
-<form id="f1" name="f" method="post"  onsubmit="return fnValidate(this)" action="user.php">
-<table class="table table-striped table-bordered">
-  <tr>
-    <td align="left">Date of Test: </td>
-    <td align="left"><input class="form-control" type="text" name="date" required /></td>
-    <td><img src="spacer.gif" width="40" height="1" border="0" alt="" /></td>
-    <td align="left">* % SaO2: </td>
-    <td align="left"><input class="form-control" type="text" name="percent_sao2" /></td>
-    <td></td>
-  </tr>
+                <tr>
+                  <td align="left">User No: </td>
+                  <td align="left"><input class="form-control" type="text" name="user_no" required /></td>
+                  <td><img src="spacer.gif" width="40" height="1" border="0" alt="" /></td>
+                  <td align="left">Weight: </td>
+                  <td align="left"><input class="form-control" type="text" name="weight" required /></td>
+                  <td align="left">
+                    <select class="form-control" name="weight_measure" required>
+                      <option value="kg">kg</option>
+                      <option value="lb">lb</option>
+                    </select>
+                  </td>
+                </tr>
 
-  <tr>
-    <td align="left">Date of Birth: </td>
-    <td align="left"><input class="form-control" type="text" name="dob" required/></td>
-    <td><img src="spacer.gif" width="40" height="1" border="0" alt="" /></td>
-    <td align="left">* Hemoglobin in g/dl: </td>
-    <td align="left"><input class="form-control" type="text" name="hemoglobin" /></td>
-    <td></td>
-  </tr>
+                <tr>
+                  <td align="left" valign="top">Gender: </td>
+                  <td align="left" valign="top"><input type="radio" name="gender" value="male" required />
+                    Male<br />
+                    <input type="radio" name="gender" value="female"  />
+                    Female</td>
+                  <td><img src="spacer.gif" width="40" height="1" border="0" alt="" /></td>
+                  <td align="left">Height (specify cm/in): </td>
+                  <td align="left"><input class="form-control" type="text" name="height" required /></td>
+                  <td align="left">
+                  <select class="form-control" name="weight_measure">
+                    <option value="cm">cm</option>
+                    <option value="in">in</option>
+                  </select>
+                  </td>
+                </tr>
 
-  <tr>
-    <td align="left">User No: </td>
-    <td align="left"><input class="form-control" type="text" name="user_no" required /></td>
-    <td><img src="spacer.gif" width="40" height="1" border="0" alt="" /></td>
-    <td align="left">Weight: </td>
-    <td align="left"><input class="form-control" type="text" name="weight" required /></td>
-    <td align="left">
-      <select class="form-control" name="weight_measure" required>
-        <option value="kg">kg</option>
-        <option value="lb">lb</option>
-      </select>
-    </td>
-  </tr>
+                <tr>
+                  <td colspan="6">
+                      <div align="center"> 
+                        <em>* not obligatory if not available, calculation will be made with the average ideal value</em> 
+                      </div>
+                  </td>
+                </tr>
 
-  <tr>
-    <td align="left" valign="top">Gender: </td>
-    <td align="left" valign="top"><input type="radio" name="gender" value="male" required />
-      Male<br />
-      <input type="radio" name="gender" value="female"  />
-      Female</td>
-    <td><img src="spacer.gif" width="40" height="1" border="0" alt="" /></td>
-    <td align="left">Height (specify cm/in): </td>
-    <td align="left"><input class="form-control" type="text" name="height" required /></td>
-    <td align="left">
-    <select class="form-control" name="weight_measure">
-      <option value="cm">cm</option>
-      <option value="in">in</option>
-    </select>
-    </td>
-  </tr>
+              </table>
 
-  <tr>
-    <td colspan="6">
-        <div align="center"> 
-          <em>* not obligatory if not available, calculation will be made with the average ideal value</em> 
-        </div>
-    </td>
-  </tr>
+              <br />
 
-</table>
+              <table class="table table-striped table-bordered">
+                <tr>
+                  <td align="left" valign="top">Body Frame: </td>
+                  <td align="left" valign="top">
+                    <input type="radio" name="body_frame" value="small" required />&nbsp;Small<br />
+                    <input type="radio" name="body_frame" value="small-medium" required />&nbsp;Small/Medium<br />
+                    <input type="radio" name="body_frame" value="medium" required />&nbsp;Medium<br />
+                    <input type="radio" name="body_frame" value="medium-large" required />&nbsp;Medium/Large<br />
+                    <input type="radio" name="body_frame" value="large" required />&nbsp;Large 
+                  </td>
+                  <td><img src="spacer.gif" width="90" height="1" border="0" alt="" /></td>
+                  <td align="left" valign="top">Activity: </td>
+                  <td align="left" valign="top">
+                    <input type="radio" name="activity" value="inactive" required />&nbsp;Inactive<br />
+                    <input type="radio" name="activity" value="sedentary" required />&nbsp;Sedentary<br />
+                    <input type="radio" name="activity" value="moderately_active" required/>&nbsp;Moderately Active<br />
+                    <input type="radio" name="activity" value="very_active" required/>&nbsp;Very Active 
+                  </td>
+                </tr>
+              </table>
 
-<br />
+              <br />
 
-<table class="table table-striped table-bordered">
-  <tr>
-    <td align="left" valign="top">Body Frame: </td>
-    <td align="left" valign="top">
-      <input type="radio" name="body_frame" value="small" required />Small<br />
-      <input type="radio" name="body_frame" value="small-medium" required />Small/Medium<br />
-      <input type="radio" name="body_frame" value="medium" required />Medium<br />
-      <input type="radio" name="body_frame" value="medium-large" required />Medium/Large<br />
-      <input type="radio" name="body_frame" value="large" required />Large 
-    </td>
-    <td><img src="spacer.gif" width="90" height="1" border="0" alt="" /></td>
-    <td align="left" valign="top">Activity: </td>
-    <td align="left" valign="top">
-      <input type="radio" name="activity" value="inactive" required />Inactive<br />
-      <input type="radio" name="activity" value="sedentary" required />Sedentary<br />
-      <input type="radio" name="activity" value="moderately_active" required/>Moderately Active<br />
-      <input type="radio" name="activity" value="very_active" required/>Very Active 
-    </td>
-  </tr>
-</table>
+              <table class="table table-striped table-bordered">
+                <tr>
+                  <td align="left" rowspan="3" width="160"><p><strong>Resting&nbsp;&nbsp;Supine</strong></p>
+                    <p><strong>(Mandatory)</strong></p></td>
+                  <td align="left">Systolic Blood Pressure (mmHg): </td>
+                  <td align="left"><input class="form-control" type="text" name="resting_supine_systolic_blood_pressure" required/></td>
+                </tr>
 
-<br />
+                <tr>
+                  <td align="left">Diastolic Blood Pressure (mmHg): </td>
+                  <td align="left"><input class="form-control" type="text" name="resting_supine_diastolic_blood_pressure" required /></td>
+                </tr>
 
-<table class="table table-striped table-bordered">
-  <tr>
-    <td align="left" rowspan="3" width="160"><p><strong>Resting&nbsp;&nbsp;Supine</strong></p>
-      <p><strong>(Mandatory)</strong></p></td>
-    <td align="left">Systolic Blood Pressure (mmHg): </td>
-    <td align="left"><input class="form-control" type="text" name="resting_supine_systolic_blood_pressure"/></td>
-  </tr>
+                <tr>
+                  <td align="left">Heart Rate (beat/min): </td>
+                  <td align="left"><input class="form-control" type="text" name="resting_supine_heart_rate" required /></td>
+                </tr>
+              </table>
 
-  <tr>
-    <td align="left">Diastolic Blood Pressure (mmHg): </td>
-    <td align="left"><input class="form-control" type="text" name="resting_supine_diastolic_blood_pressure" /></td>
-  </tr>
+              <div align="center"><br />
+                  <table class="table table-striped table-bordered">
+                    <tr>
+                      <td align="left" rowspan="3" width="160"><p><strong>Resting&nbsp;&nbsp;Upright</strong></p>
+                      <p><strong>(Optional)</strong></p></td>
+                      <td align="left">Systolic Blood Pressure (mmHg): </td>
+                      <td align="left"><input class="form-control" type="text" name="resting_upright_systolic_blood_pressure" required/></td>
+                    </tr>
 
-  <tr>
-    <td align="left">Heart Rate (beat/min): </td>
-    <td align="left"><input class="form-control" type="text" name="resting_supine_heart_rate" /></td>
-  </tr>
-</table>
+                    <tr>
+                      <td align="left">Diastolic Blood Pressure (mmHg): </td>
+                      <td align="left"><input class="form-control" type="text" name="resting_upright_diastolic_blood_pressure" required/></td>
+                    </tr>
 
-<div align="center"><br />
-    <table class="table table-striped table-bordered">
-      <tr>
-        <td align="left" rowspan="3" width="160"><p><strong>Resting&nbsp;&nbsp;Upright</strong></p>
-        <p><strong>(Optional)</strong></p></td>
-        <td align="left">Systolic Blood Pressure (mmHg): </td>
-        <td align="left"><input class="form-control" type="text" name="resting_upright_systolic_blood_pressure" /></td>
-      </tr>
+                    <tr>
+                      <td align="left">Heart Rate (beat/min): </td>
+                      <td align="left"><input class="form-control" type="text" name="resting_upright_heart_rate" required/></td>
+                    </tr>
+                  </table>
 
-      <tr>
-        <td align="left">Diastolic Blood Pressure (mmHg): </td>
-        <td align="left"><input class="form-control" type="text" name="resting_upright_diastolic_blood_pressure"/></td>
-      </tr>
+                  <br />
 
-      <tr>
-        <td align="left">Heart Rate (beat/min): </td>
-        <td align="left"><input class="form-control" type="text" name="resting_upright_heart_rate"/></td>
-      </tr>
-    </table>
+              </div>
 
-    <br />
+              <br />
 
-</div>
+              <table class="table table-striped table-bordered">
+                <tr>
+                  <td width="182" align="right"><b>Your E-mail Address</b>:&nbsp; </td>
+                  <td width="1032"><input class="form-control" type="text" name="email" required/>
+                  </td>
+                </tr>
 
-<br />
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
 
-<table class="table table-striped table-bordered">
-  <tr>
-    <td width="182" align="right"><b>Your E-mail Address</b>:&nbsp; </td>
-    <td width="1032"><input class="form-control" type="text" name="email" size="30" />
-    </td>
-  </tr>
+                <tr>
+                  <td width="182" align="right"><b>Your Fax Number</b>:&nbsp; </td>
+                  <td><input class="form-control" type="text" name="fax_number" />
+                  </td>
+                </tr>
+              </table>
 
-  <tr>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
+              <div align="center"><br />
+                <input type="submit" value="Submit" />
+                &nbsp;
+                <input type="reset" value=" Clear " />
+              </div>
 
-  <tr>
-    <td width="182" align="right"><b>Your Fax Number</b>:&nbsp; </td>
-    <td><input class="form-control" type="text" name="fax_number" size="30" />
-    </td>
-  </tr>
-</table>
+            </form>
 
-<div align="center"><br />
-  <input type="submit" name="Submit" value="Submit" />
-  &nbsp;
-  <input type="reset" name="Submit2" value=" Clear " />
-  <input name="Submit3" type="hidden" id="Submit" value="Submit" />
-</div>
-
-</form>
-
-
+            <!-- Questionnaire Form Ends -->
 
           </div>
+
 
           <!--Contact Form-->
           <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 padding-spacer-left">
@@ -202,7 +201,7 @@
 
             <?php require 'contact_form.php'; ?>
 
-          </div><!--Schedule-->
+          </div>
 
         </div>
       </div>
