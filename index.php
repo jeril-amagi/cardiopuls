@@ -66,7 +66,7 @@
               <!--mcare news box-->
               <div class="mcare-news-box">
                 <div class="news-img">
-                  <a href="#"><img alt="" class="img-responsive" src=
+                  <a href="what_is_cardiopuls.php"><img alt="" class="img-responsive" src=
                   "images/carousel1.jpg" style="height:200px"> <em></em></a>
                 </div>
                 <h4>Works with any health app wearables</h4>
@@ -74,7 +74,7 @@
                 senec tus et netus et malesuada fames ac egestas. fame turpis
                 egestas.</p>
                 <div class="foot-meta"><span class=
-                  "readmore"><a href="#">Read More</a></span>
+                  "readmore"><a href="what_is_cardiopuls.php">Read More</a></span>
                 </div>
               </div>
             </div>
@@ -82,7 +82,7 @@
               <!--mcare news box-->
               <div class="mcare-news-box">
                 <div class="news-img">
-                  <a href="#"><img alt="" class="img-responsive" src=
+                  <a href="applications.php"><img alt="" class="img-responsive" src=
                   "images/carousel2.jpg" style="height:200px"> <em></em></a>
                 </div>
                 <h4>Check your own heart health anytime, anywhere as often as you like</h4>
@@ -90,7 +90,7 @@
                 senec tus et netus et malesuada fames ac egestas. fame turpis
                 egestas.</p>
                 <div class="foot-meta"> <span class=
-                  "readmore"><a href="#">Read More</a></span>
+                  "readmore"><a href="applications.php">Read More</a></span>
                 </div>
               </div>
             </div>
@@ -98,7 +98,7 @@
               <!--mcare news box-->
               <div class="mcare-news-box">
                 <div class="news-img">
-                  <a href="#"><img alt="" class="img-responsive" src=
+                  <a href="applications.php"><img alt="" class="img-responsive" src=
                   "images/carousel3.jpg" style="height:200px"> <em></em></a>
                 </div>
                 <h4>Perfect screening tool for healthcare and insurance professionals</h4>
@@ -106,7 +106,7 @@
                 senec tus et netus et malesuada fames ac egestas. fame turpis
                 egestas.</p>
                 <div class="foot-meta"> <span class=
-                  "readmore"><a href="#">Read More</a></span>
+                  "readmore"><a href="applications.php">Read More</a></span>
                 </div>
               </div>
             </div>
@@ -114,7 +114,7 @@
               <!--mcare news box-->
               <div class="mcare-news-box">
                 <div class="news-img">
-                  <a href="#"><img alt="" class="img-responsive" src=
+                  <a href="applications.php"><img alt="" class="img-responsive" src=
                   "images/carousel4.jpg" style="height:200px"> <em></em></a>
                 </div>
                 <h4>Works independently of any medical device</h4>
@@ -122,7 +122,7 @@
                 senec tus et netus et malesuada fames ac egestas. fame turpis
                 egestas.</p>
                 <div class="foot-meta"> <span class=
-                  "readmore"><a href="#">Read More</a></span>
+                  "readmore"><a href="applications.php">Read More</a></span>
                 </div>
               </div>
             </div>
