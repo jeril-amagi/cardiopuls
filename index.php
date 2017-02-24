@@ -70,9 +70,7 @@
                   "images/carousel1.jpg" style="height:200px"> <em></em></a>
                 </div>
                 <h4>Works with any health app wearables</h4>
-                <p class="text-content">Pellentesque habitantsd morbi tristique
-                senec tus et netus et malesuada fames ac egestas. fame turpis
-                egestas.</p>
+                <p class="text-content">Use with any wearable health device available on the market. The most cost-effective and accurate noninvasive hemodynamic method available</p><br>
                 <div class="foot-meta"><span class=
                   "readmore"><a href="what_is_cardiopuls.php">Read More</a></span>
                 </div>
@@ -86,9 +84,7 @@
                   "images/carousel2.jpg" style="height:200px"> <em></em></a>
                 </div>
                 <h4>Check your own heart health anytime, anywhere as often as you like</h4>
-                <p class="text-content">Pellentesque habitantsd morbi tristique
-                senec tus et netus et malesuada fames ac egestas. fame turpis
-                egestas.</p>
+                <p class="text-content">Can be used independently of time, place and instrumentation of when the actual user measurements are taken</p>
                 <div class="foot-meta"> <span class=
                   "readmore"><a href="applications.php">Read More</a></span>
                 </div>
@@ -102,9 +98,7 @@
                   "images/carousel3.jpg" style="height:200px"> <em></em></a>
                 </div>
                 <h4>Perfect screening tool for healthcare and insurance professionals</h4>
-                <p class="text-content">Pellentesque habitantsd morbi tristique
-                senec tus et netus et malesuada fames ac egestas. fame turpis
-                egestas.</p>
+                <p class="text-content">No training required, No safety risk to users, No standardization required, No maintenance required</p>
                 <div class="foot-meta"> <span class=
                   "readmore"><a href="applications.php">Read More</a></span>
                 </div>
@@ -118,9 +112,7 @@
                   "images/carousel4.jpg" style="height:200px"> <em></em></a>
                 </div>
                 <h4>Works independently of any medical device</h4>
-                <p class="text-content">Pellentesque habitantsd morbi tristique
-                senec tus et netus et malesuada fames ac egestas. fame turpis
-                egestas.</p>
+                <p class="text-content">Just type in the personal information of the user, which includes age, gender, height and body-weight</p><br>
                 <div class="foot-meta"> <span class=
                   "readmore"><a href="applications.php">Read More</a></span>
                 </div>
