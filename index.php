@@ -135,7 +135,7 @@
 
                 Try Cardiopuls Today
 
-                <br><em>Just input your heart rate and blood pressure data</em></h2>
+                <br><em>Input your heart rate and blood pressure data</em></h2>
 
                 <a class=
                 "mcare-button button1" href="try_cardiopuls.php">TRY CARDIOPULS</a> <a class=
@@ -161,11 +161,9 @@
           <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12 padding-spacer-left">
             <div class="mcare-text-ibox1">
               <h3><i class="mcare-flaticon-hospital32"></i><span class=
-              "content-os">15+ years of</span><br>
-              Excellence in Healthcare</h3>
-              <p class="main-content ibox1-content text-content">Phasellus enim
-              libero, blandit vel sapien vitae, condimentum ultricies magna
-              estasente et. Quisque euismod orci ut et lobortis aliquam.</p>
+              "content-os">10+ years of</span><br>
+              Excellence in Heartcare</h3>
+              <p class="main-content ibox1-content text-content">We have conducted extensive research and applied the Cardiopuls method to thousands of users. Also, we have received two patents from the U.S. Patent Office due to its unique design and function that are fundamentally different than any other measurement method</p>
             </div>
           </div><!--Icon Box-->
         </div>
