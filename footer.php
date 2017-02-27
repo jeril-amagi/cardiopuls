@@ -6,11 +6,8 @@
               <!--Footer Content-->
               <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                 <div class="mcare-foot-about footer-box">
-                  <img alt="" class="foot-logo" src="images/logo_small.jpg">
-                  <p class="text-content">Meditreat HTML template is
-                  specifically designed for and caters the need of hospitals,
-                  doctors, sergions, dentists, pharmacies, health clinics and
-                  all health related services.</p>
+                  <img alt="" class="foot-logo" src="images/logo.png">
+                  <p class="text-content"></p>
                 </div>
               </div><!--Footer Contact Details-->
               <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 padding-spacer-left">

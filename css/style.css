@@ -957,17 +957,6 @@ padding: 10px 30px;
 }
 
 
-
-.logo img{
-
-	width: 180px;
-
-	padding: 13px 0;
-
-}
-
-
-
 .navbar-default {
 
 background-color: #fff;
@@ -6847,9 +6836,9 @@ background: url(../images/foot-map.png) no-repeat center bottom 32px;
 
   font-size: 18px;
 
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 
-  margin-bottom: 30px;
+  margin-bottom: 22px;
 
   border-bottom: 1px solid #565d68;
 
@@ -6903,7 +6892,7 @@ background: url(../images/foot-map.png) no-repeat center bottom 32px;
 
   position: relative;
 
-  padding-bottom: 10px;
+  padding-bottom: 7px;
 
   padding-left: 35px;
 
