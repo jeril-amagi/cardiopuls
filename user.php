@@ -42,7 +42,7 @@ $jpg = $GLOBALS["HTTP_RAW_POST_DATA"];
 
 //$to = 'blagerman@cardiopuls.com'; 
 
-$to = 'seb988@gmail.com';
+$to = 'blagerman@cardiopuls.com';
 
 //define the subject of the email 
 
