@@ -96,7 +96,6 @@ echo "$key: ".$value."<br>";
 
 ?>
 
-<br/><br/>
 
 <?php 
 
