@@ -25826,9 +25826,8 @@ padding: 5px 0px 10px 0;
 
   /*Footer*/
 
-  .foot-social {text-align: center;}
 
-  .sub-footer p {margin-bottom: 15px;text-align: center;}
+.sub-footer p {margin-bottom: 15px;}
 
 .foot-social li a {padding: 0 10px;}
 
