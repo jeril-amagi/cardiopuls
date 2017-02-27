@@ -80,11 +80,7 @@ ob_start(); //Turn on output buffering
 
 
 
-
-
-<h2>Cardiopuls Website Contact</h2> 
-
-Hello Bruce, a visitor from Cardiopuls.com has sent you a message!<br />
+<h4>Hello Bruce, a visitor from Cardiopuls.com has sent you a message!</h4> <br /><br />
 
 <?php 
 
@@ -100,6 +96,7 @@ echo "$key: ".$value."<br>";
 
 ?>
 
+<br/><br/>
 
 <?php 
 

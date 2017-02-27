@@ -79,15 +79,9 @@ ob_start(); //Turn on output buffering
 ?> 
 
 
-
-
-
-<h2>Cardiopuls Questionnaire Submitted</h2> 
-
-Hello Bruce, a visitor from Cardiopuls.com has submitted a Cardiopuls Questionnaire.<br />
+<h4>Hello Bruce, a visitor from Cardiopuls.com has submitted a Cardiopuls Questionnaire.</h4><br /><br />
 
 <?php 
-
 
 
 foreach ($_POST as $key => $value) 
@@ -100,11 +94,7 @@ echo "$key: ".$value."<br>";
 
 ?>
 
-
-
-
-
-
+<br /><br />
 
 <?php 
 
