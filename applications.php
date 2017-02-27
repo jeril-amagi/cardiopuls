@@ -29,7 +29,7 @@
 							<h4>Cardiopuls can be used for</h4>
 							<br>
 
-							<ul class="check-list-circle">
+							<ul class="check-list-circle" style="padding-left: 20px;">
 
 								<li>Wearables  </li>
 
@@ -67,10 +67,10 @@
 
 
 							<img src="applications2.jpg"  style="float:right; margin-right:55px; margin-top:55px;">
-							<br>
+							<br><br>
 							<h4>Cardiopuls Advantages</h4>
 							<br>
-							<ul class="check-list-circle">
+							<ul class="check-list-circle" style="padding-left: 20px;">
 
 								<li>Accurate & comprehensive analysis</li>
 

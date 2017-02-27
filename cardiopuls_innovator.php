@@ -21,7 +21,7 @@
         <div class="row">
 
           <div class="col-md-8 col-lg-8 col-sm-8 col-xs-12 padding-spacer-right">
-            <h4 class="border-title">Cardiopuls Innovator</h4>
+            <h4 class="border-title">Cardiopuls Innovator</h4><br>
 
             <p class="intro" align="justify"> 
 
