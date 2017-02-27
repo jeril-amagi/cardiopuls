@@ -24,7 +24,7 @@
             <h4 class="border-title">Flowchart of the Non-invasive Hemodynamic Analyzer (NHA)</h4>
               <div class="image-box parent-container-img3">
                 <figure class="effect-ming" href="Flowchart.jpg">
-                  <img alt="img02" src="Flowchart.jpg">
+                  <img alt="img02" src="flowchart.jpg">
                   <figcaption>
                     <p><i class="fa fa-arrows"></i></p>
                     <a href="#">View more</a>
