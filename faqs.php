@@ -54,7 +54,7 @@
               <br /></p>
 
               <p class="intro" style="color: #B51423"> <img alt="" src="ques.png" style="margin-bottom: 4px" />&nbsp;
-              In which clinical areas can the Cardiopuls noninvasive hemodynamic analyzer be used?</p>
+              In which clinical areas can the Cardiopuls be used?</p>
               <p style="margin-left: 40px">
               The Cardiopuls method can be favorably applied to any medical application currently using other noninvasive or invasive methods to measure cardiac output including hypertension, coronary disease and congestive heart failure. The Cardiopuls noninvasive hemodynamic analyzer is an ideal screening device for these diseases as well.<br />
               <br /></p>
