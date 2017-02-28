@@ -25,7 +25,7 @@
             "theme-color-text">Cardiopuls?</span></h4>
             <div style="font-size: 18px">
             <br>
-            The Cardiopuls noninvasive hemodynamic analyzer is a patented computerized clinical decision system which accurately computes stroke volume, cardiac output and numerous other related hemodynamic parameters – in both real-time and/or retrospectively. Cardiopuls can be used for noninvasive (and invasive applications), such as, primary care, ambulatory, critical care, telemedicine, military medicine, emergency room, pre-operative, post-operative care, life & health insurance examinations, and, in general, large scale user screening.<br><br>
+            Cardiopuls™ is a patented computerized clinical decision system which accurately computes stroke volume, cardiac output and numerous other related hemodynamic parameters – in both real-time and/or retrospectively. Cardiopuls can be used for noninvasive (and invasive applications), such as, primary care, ambulatory, critical care, telemedicine, military medicine, emergency room, pre-operative, post-operative care, life & health insurance examinations, and, in general, large scale user screening.<br><br>
 
             Cardiopuls provides the physician with the capability to diagnose and monitor users with hypertension, heart failure, angina pectoris, and coronary artery disease.<br><br>
 
