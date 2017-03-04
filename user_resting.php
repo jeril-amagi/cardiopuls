@@ -14,7 +14,7 @@
 
     <?php require 'header.php'; ?>
     
-    <?php require 'call2action.php'; ?>
+    <?php require 'call2action2.php'; ?>
 
     <section class="mcare-Contact1-form contact-page">
       <div class="container">

@@ -14,9 +14,9 @@
 
     <?php require 'header.php'; ?>
     
-    <?php require 'call2action.php'; ?>
+    <?php require 'call2action2.php'; ?>
 
-    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12" style="padding: 30px">
+    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12" style="padding: 30px 30px 0px 30px">
 
       <?php if(isset($_GET['sent']) && $_GET['sent'] == 1): ?>
         <div class="alert alert-success" id="contactSuccess">
