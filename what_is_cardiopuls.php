@@ -23,7 +23,7 @@
           <div class="col-md-8 col-lg-8 col-sm-8 col-xs-12 padding-spacer-right">
             <h4 class="border-title">What is <span class=
             "theme-color-text">Cardiopuls?</span></h4>
-            <div style="font-size: 18px">
+            <div>
             <br>
             Cardiopuls™ is a patented computerized clinical decision system which accurately computes stroke volume, cardiac output and numerous other related hemodynamic parameters – in both real-time and/or retrospectively. Cardiopuls can be used for noninvasive (and invasive applications), such as, primary care, ambulatory, critical care, telemedicine, military medicine, emergency room, pre-operative, post-operative care, life & health insurance examinations, and, in general, large scale user screening.<br><br>
 
