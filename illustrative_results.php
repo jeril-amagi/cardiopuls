@@ -66,6 +66,7 @@
               <p style="margin-left:30px;">
               <a href="o1.jpg" target="new">
               &bull; Tabulated Results of a Male Olympic Champion    </a>
+              <br><br>
           </div>
 
         

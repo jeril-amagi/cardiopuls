@@ -20,12 +20,12 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-md-8 col-lg-8 col-sm-8 col-xs-12 padding-spacer-right">
+          <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12 padding-spacer-right">
             <h4 class="border-title">Cardiopuls Innovator</h4><br>
 
             <p class="intro" align="justify"> 
 
-            <img src="johnkabel.png" align="right" alt="John Kabel" style="margin-left:25px;">
+            <img src="johnkabel.png" align="right" alt="John Kabel" style="margin-left:25px; margin-bottom:15px;">
 
             John Kabal, MD/PhD was born in Hungary. He began his medical studies in Budapest and earned his MD degree at the Medizinische Universität Wien (Vienna), Austria.  Dr. Kabal also received a Ph.D. in Physiology and Pharmacology at Georgetown University Medical & Graduate School, in Washington D.C. 
 
@@ -41,10 +41,11 @@
 
             Dr. Kabal's  legacy continues with a rich body of work and a dedicated team that understands the depth of the research and the impact of the innovation for future applications. 
 
+          <br><br>
           </div>
         
           <!--Contact Form-->
-          <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 padding-spacer-left">
+          <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
             <h4 class="border-title">Contact Us</h4>
 
             <?php require 'contact_form.php'; ?>

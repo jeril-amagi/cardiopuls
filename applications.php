@@ -24,7 +24,7 @@
             <h4 class="border-title">Applications</h4>
 
 						<div>
-							<img src="applications1.jpg"  style="float:right; margin-right:55px; margin-top:75px;">
+							<img src="applications1.jpg"  style="float:right; margin-right:55px; margin-top:75px; margin-bottom: 20px;">
 							<br>
 							<h4>Cardiopuls can be used for</h4>
 							<br>
@@ -66,7 +66,7 @@
 							</ul>
 
 
-							<img src="applications2.jpg"  style="float:right; margin-right:55px; margin-top:55px;">
+							<img src="applications2.jpg"  style="float:right; margin-right:55px; margin-top:55px;  margin-bottom: 20px;">
 							<br><br>
 							<h4>Cardiopuls Advantages</h4>
 							<br>
@@ -88,7 +88,7 @@
 
 							</ul>
 						</div>
-
+						<br><br>
           </div>
 
         
