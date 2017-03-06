@@ -158,7 +158,7 @@
               Cardiopuls™ is a patented computerized clinical decision system which accurately computes stroke volume, cardiac output and numerous other related hemodynamic parameters – in both real-time and/or retrospectively. Cardiopuls can be used for noninvasive (and invasive applications), such as, primary care, ambulatory, critical care, telemedicine, military medicine, emergency room, pre-operative, post-operative care, life & health insurance examinations, and, in general, large scale user screening.</p>
             </div>
           </div><!--Icon Box-->
-          <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
+          <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
             <div class="mcare-text-ibox1">
               <h3><i class="mcare-flaticon-hospital32"></i><span class=
               "content-os">10+ years of</span><br>
