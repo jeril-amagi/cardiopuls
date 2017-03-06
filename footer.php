@@ -24,10 +24,12 @@
               <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 padding-spacer-left">
                 <div class="mcare-foot-address footer-box">
                   <h4>Reach Us</h4>
-                  <p class="text-content"><i class="fa fa-home"></i>Bruce K. Lagerman
-                  11921 Freedom Dr. 
-                  Suite 550 
-                  Reston, VA 20190
+                  <p class="text-content"><i class="fa fa-home"></i>
+                    BRUCE K. LAGERMAN <br>
+                    11921 FREEDOM DRIVE <br>
+                    SUITE 550 <br>
+                    RESTON, VIRGINIA 20190 <br>
+                    USA
                   </p>
                   <p class="text-content"><i class=
                   "fa fa-envelope"></i><a href="mailto:meditreat@meditreat.com">blagerman@cardiopuls.com</a></p>

@@ -51,10 +51,11 @@
 						<span>
 							<i class="ion-ios-home"></i>
 							<div style="margin-left: 40px; margin-top: -25px">
-								<div>Bruce K. Lagerman</div>
-							 	<div>11921 Freedom Dr.</div>
-							  <div>Suite 550</div> 
-							  <div>Reston, VA 20190</div>
+                <div>BRUCE K. LAGERMAN</div>
+                <div>11921 FREEDOM DRIVE</div>
+                <div>SUITE 550</div>
+                <div>RESTON, VIRGINIA 20190</div>
+                <div>USA</div>
 							</div>
 						</span>
               <span><i class="ion-email"></i><a href="mailto:blagerman@cardiopuls.com">blagerman@cardiopuls.com</a></span>

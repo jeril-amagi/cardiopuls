@@ -26,7 +26,7 @@
               <div class="ban-cotent">
                 <div class="ban1-left">
                   <span class="ban1-txt1" style="color: #333">
-                  New Approach to <br> Accurately Assess <br class="br-small"> Heart Health</span><br>
+                  Just use your <br> heart rate and <br class="br-small"> blood pressure data </span><br>
                   <span class="ban1-txt3" style="color: #222">Assess your heart health anytime, anywhere, <br class="br-medium"> and as often as you want</span><br><br>
                 </div>
               </div>
@@ -40,8 +40,7 @@
               <div class="bg-img bg-img-2"></div>
               <div class="ban-cotent">
                 <div class="ban2-left">
-                  <span class="ban1-txt1" style="color: #222">A breakthrough <br>cardiovascular <br class="br-small">
-                  Assessment Tool</span><br>
+                  <span class="ban1-txt1" style="color: #222">A breakthrough <br> heart checkup <br class="br-small">application</span><br>
                   <span class="ban2-txt3" style="color: #222">Can be used with any mobile device</span><br>
                 </div>
               </div>
@@ -112,7 +111,7 @@
                   "images/carousel4.jpg" style="height:200px"> <em></em></a>
                 </div>
                 <h4>Works independently of any medical device</h4>
-                <p class="text-content">Just type in the personal information of the user, which includes age, gender, height and body-weight</p><br>
+                <p class="text-content">Just type in the personal information of the user, which includes blood pressure, heart rate, age, gender, height and body-weight</p><br>
                 <div class="foot-meta"> <span class=
                   "readmore"><a href="applications.php">Read More</a></span>
                 </div>
