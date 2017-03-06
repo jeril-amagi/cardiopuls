@@ -67,7 +67,7 @@
             <br><br><br>
             <strong style="color: #ea2424;">Disclaimer</strong>
 
-            <div style="font-size: 13px">
+            <div>
             <br>
             The Cardiopuls heart checkup is not intended to provide medical advice or
             treatment. Only your healthcare provider can do that.
