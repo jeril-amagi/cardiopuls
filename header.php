@@ -95,7 +95,7 @@
 
                   </div><a href="index.php">
                   <div class="logo">
-                    <img alt="logo" class="img-responsive" src="images/logo_new.jpg" style="padding: 14px 12px 12px 12px; height: 88px; width: 160px">
+                    <img alt="logo" class="img-responsive" src="images/logo_new.jpg" style="padding: 14px 12px 12px 12px; height: 88px; width: 158px">
                   </div></a>
                 </div>
 
