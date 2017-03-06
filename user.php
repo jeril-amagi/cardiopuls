@@ -111,7 +111,21 @@ $mail_sent = @mail( $to, $subject, $message, $headers );
 
 $status = $mail_sent ? 1 : 0; 
 
-header("Location: try_cardiopuls.php?sent=".$status); /* Redirect browser */
+//header("Location: try_cardiopuls.php?sent=".$status); /* Redirect browser */
+
+if($status == 1) 
+{
+	echo '<script type="text/javascript">
+          window.location = "http://www.cardiopuls.com/try_cardiopuls.php?sent=1"
+      	</script>';
+}
+else
+{
+	echo '<script type="text/javascript">
+          window.location = "http://www.cardiopuls.com/try_cardiopuls.php?sent=0"
+      	</script>';
+}
+
 exit();
 
 ?>
