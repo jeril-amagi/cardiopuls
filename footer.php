@@ -12,7 +12,7 @@
               </div><!--Footer Contact Details-->
               <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12">
                 <div class="mcare-foot-address footer-box">
-                  <h4>For Licensing Inquiries</h4>
+                  <h4 style="font-size: 16px; color: #ddd;"> &nbsp; For Licensing Inquiries</h4>
                   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 padding-spacer-right">
                   <p class="text-content"><i class="fa fa-home"></i>
                     BRUCE K. LAGERMAN <br>
