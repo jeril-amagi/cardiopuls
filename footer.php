@@ -4,15 +4,15 @@
           <div class="row">
             <div class="main-footer-inner">
               <!--Footer Content-->
-              <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 padding-spacer-right">
-                <div class="mcare-foot-about footer-box" style="margin-top: 42px">
+              <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12 padding-spacer-right">
+                <div class="mcare-foot-about footer-box" style="margin-top: 48px">
                   <img alt="" class="foot-logo" src="images/logo.png">
-                  <p class="text-content copy-content" style="font-size: 12px">© Copyright <span class="theme-color-text">CARDIOPULS</span> 2017. All rights reserved.</p>
+                  <p class="text-content copy-content" style="font-size: 12px; padding-top: 16px;">© Copyright <span class="theme-color-text">CARDIOPULS</span> 2017. All rights reserved.</p>
                 </div>
               </div><!--Footer Contact Details-->
               <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12">
                 <div class="mcare-foot-address footer-box">
-                  <h4>Reach Us</h4>
+                  <h4>For Licensing Inquiries</h4>
                   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 padding-spacer-right">
                   <p class="text-content"><i class="fa fa-home"></i>
                     BRUCE K. LAGERMAN <br>

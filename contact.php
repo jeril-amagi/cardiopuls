@@ -45,7 +45,7 @@
 
 
 					<div class="col-md-5 col-lg-5 col-sm-5 col-xs-12 padding-spacer-left">
-						<h4 class="border-title">Contact <span class="theme-color-text">Information</span></h4>
+						<h4 class="border-title">For Licensing Inquiries</h4>
 						<br>
 						<div class="text-content contact-info">
 						<span>
