@@ -41,7 +41,7 @@
                 <div class="ban1-left">
                   <span class="ban1-txt1" style="color: #333">
                   Just use your <br> heart rate and <br class="br-small"> blood pressure data </span><br>
-                  <span class="ban1-txt3" style="color: #222">Assess your heart health anytime, anywhere, <br class="br-medium"> and as often as you want</span><br><br>
+                  <span class="ban1-txt3" style="color: #222">Accurately Assess your heart health anytime, anywhere, <br class="br-medium"> and as often as you want</span><br><br>
                 </div>
               </div>
             </div>
@@ -164,7 +164,7 @@
               <h3><i class="mcare-flaticon-hospital32"></i><span class=
               "content-os">10+ years of</span><br>
               Excellence in Heartcare</h3>
-              <p class="main-content ibox1-content text-content">We have conducted extensive research and applied the Cardiopuls method to thousands of users. Also, we have received two patents from the U.S. Patent Office due to its unique design and function that are fundamentally different than any other measurement method</p>
+              <p class="main-content ibox1-content text-content">We have conducted extensive research and applied the Cardiopuls method to thousands of users. Also, we have received two patents from the U.S. Patent Office due to its unique design and function that are fundamentally different than any other measurement method.</p>
             </div>
           </div><!--Icon Box-->
         </div>
